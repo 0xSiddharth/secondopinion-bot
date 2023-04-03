@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hello! I'm Dr.2ndOpinion, an AI assistant designed to help you navigate your healthcare needs. I'm here to provide you with second opinions on your medical queries. Please tell me your age, gender & symptoms. Do also provide medical history if possible, and I'll do my best to help you.`
       }
     ]);
   };
@@ -93,7 +93,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hello! I'm Dr.2ndOpinion, an AI assistant designed to help you navigate your healthcare needs. I'm here to provide you with second opinions on your medical queries. Please tell me your age, gender & symptoms. Do also provide medical history if possible, and I'll do my best to help you.`
       }
     ]);
   }, []);
@@ -101,10 +101,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>2nD0pinion</title>
         <meta
           name="description"
-          content="A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS."
+          content="A simple AI assistant designed to help you navigate your healthcare needs."
         />
         <meta
           name="viewport"
